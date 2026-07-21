@@ -138,6 +138,12 @@
       box-shadow: 0 6px 18px rgba(4,7,4,0.45);
     }
 
+    /* Make phone # links same color but underlined*/    
+    a[href^="tel:"] {
+      color: inherit;
+      text-decoration: underline;
+    }
+
     /* Skyline + stars */
     .sky { position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 20%, #1c3d20 0%, #0d1f11 60%); z-index: 0; }
     .stars { position: absolute; inset: 0; width:100%; height:100%; pointer-events:none; z-index:1; }
